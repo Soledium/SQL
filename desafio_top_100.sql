@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*paso 1*/
 CREATE DATABASE top_100;
 
@@ -50,6 +51,14 @@ from public.peliculas;
 select max(length(movie))
 from public.peliculas;
 
+=======
+-- paso 1 
+CREATE DATABASE peliculas;
+-- paso 2
+CREATE TABLE pelicula (id BIGINT, pelicula TEXT, año_estreno TEXT, director NAME, PRIMARY KEY (id))
+-- paso 3
+CREATE TABLE reparto (id INTEGER, nombre NAME, FOREIGN KEY )
+>>>>>>> 669d6b059b327e86bf52be80ee7059e4f7ea93da
 
 
 
