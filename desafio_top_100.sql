@@ -44,7 +44,7 @@ SELECT movie
     order by movie asc;
 
 /*paso 7 consulta sql de los titulos y su longitud*/
-select char_length(movie), name(movie)
+select char_length(movie) as longitud_titulo, name(movie)
 from public.peliculas;
 
 /*paso 8 consultar el titulo con mayor longitud*/
